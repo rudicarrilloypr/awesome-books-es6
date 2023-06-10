@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0 4vw;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2vw;
+  height: 80vw;
+}
+
+.titleMain {
+  display: inline;
+  font-size: 2.5vw;
+}
+
+.titleSection {
+  font-size: 3vw;
+  margin: 0.5vw 0;
+}
+
+.titleContainer {
+  margin: 1.5vw 0 2vw 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.book-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.7vw 0.3vw;
+}
+
+.book-entry:nth-child(even) {
+  background-color: #e6e3e3; /* gris claro */
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.book-entry:nth-child(odd) {
+  background-color: #fff; /* blanco */
+}
+
+.remove-button {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.container > * {
+  font-size: 2vw;
+  margin: 1vw;
+  font-weight: 600;
+}
+
+input {
+  width: 30vw;
+  height: 2vw;
+  margin-bottom: 0.5vw;
+  border: black solid 0.3vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+#newBookTitle {
+  margin-left: 2.4vw;
+}
+
+#bookCollection {
+  border: black solid 0.3vw;
+  width: 80vw;
+}
+
+.labelContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+button {
+  font-size: 1.5vw;
+  margin-top: 0;
+  padding: 0.5vw;
+  box-shadow: 0.5vw 0.5vw 0 0;
+  font-weight: 600;
+  border: black solid 0.3vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  align-self: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  border: black solid 0.5vw;
+  padding: 0 1vw;
+  position: fixed;
+  background-color: #fff;
+  height: 5vw;
+}
+
+.mainContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -130px;
+}
+
+.lists {
+  display: flex;
+}
+
+.lists > * {
+  margin: 0 1vw;
+  position: relative;
+}
+
+.lists > *::after {
+  content: "";
+  position: absolute;
+  right: -1vw;
+  top: 25%;
+  height: 50%;
+  border-right: 0.3vw solid black;
+}
+
+.lists > *:last-child::after {
+  border-right: none;
+}
+
+header {
+  height: 6vw;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  height: 5vw;
+  display: flex;
+  align-items: center;
+  border: black solid 0.5vw;
+  padding: 0 1vw;
+}
+
+.lists a:hover {
+  color: rgb(36, 94, 180);
+}
+
+.lists a.active {
+  color: rgb(36, 94, 180);
+}
