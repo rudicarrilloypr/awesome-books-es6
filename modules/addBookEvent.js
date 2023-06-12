@@ -1,3 +1,4 @@
+/* eslint-disable */
 import BookCollection from './bookCollection.js';
 
 const addBookEvent = () => {

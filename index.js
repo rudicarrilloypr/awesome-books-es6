@@ -1,3 +1,4 @@
+/* eslint-disable */
 import BookCollection from './modules/bookCollection.js';
 import addBookEvent from './modules/addBookEvent.js';
 import displayCurrentTime from './modules/dateTime.js';

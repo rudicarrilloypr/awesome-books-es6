@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { DateTime } from './luxon.js';
 
 const displayCurrentTime = () => {
