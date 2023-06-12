@@ -178,3 +178,8 @@ footer {
 .lists a.active {
   color: rgb(36, 94, 180);
 }
+
+#datetime {
+  text-align: right;
+  font-size: 1.8vw;
+}

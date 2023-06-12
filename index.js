@@ -1,5 +1,7 @@
+
 import BookCollection from './modules/bookCollection.js';
 import addBookEvent from './modules/addBookEvent.js';
+import displayCurrentTime from './modules/dateTime.js';
 
 
 let myBookCollection = new BookCollection();
@@ -25,3 +27,9 @@ navLinks.forEach((link) => {
   }
 });
 
+window.onload = () => {
+  const dateTimeDisplay = document.getElementById('datetime');
+  if (dateTimeDisplay) {
+    dateTimeDisplay.textContent = displayCurrentTime();
+  }
+};
