@@ -1,4 +1,4 @@
-/* eslint-disable */
+
 import Book from './book.js';
 
 class BookCollection {
